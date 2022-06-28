@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding</title>
+    <script rel="javascript" type="text/javascript" href="js/jquery-1.11.3.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+
+        <a class="btn btn--small" href="search.html">Search</a>
+        <a class="btn btn--small" href="pagination.html">Pagination</a>
+        <label for="numberMin"></label>
+        <input type="number" style="margin-top: 12px;"id="numberMin" min="1" placeholder="search pages from"></input>
+        <label for="numberMax"></label>
+        <input type="number" id="numberMax" max="100" placeholder="
+        search pages to"></input>
+        <a class="btn btn--small" href="../main.html">Back</a>
+        <a class="btn btn--small" onclick="Dane()">Search</a>
+        
+        
+    </div>
+      
+    <main>
+        <div class="paginationlist">
+		    <div class="list" id="list"></div>
+        </div>
+            <div class="pagination">
+                <div class="pagenumbers" id="pagination"></div>
+            </div>
+       
+	</main>
+
+
+    <script src="src/pagination.js"></script>
+    <script>Dane();</script>
+</body>
+</html>

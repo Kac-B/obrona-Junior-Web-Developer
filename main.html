@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profilo</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    
+</head>
+<body class="row">
+    <!--lewa czesc-->
+    <section 
+    class="col-10 col-md-4 vh-100">
+    <img src="src/MyComponents/photo/ja2.jpg" style="height: auto; width:auto;" class="position-relative top-25 d-block m-auto w-50 img-fluid img-thumbnail shadow-lg p-3 mb-5 bg-body rounded">
+          <div class="position-relative  text-center">
+            
+            <h2 class="display-2 fw-bolder text-center">Kacper Biernat</h2>
+            <h4 class="font monospace">Full Stack Web Developer</h4>
+            <div class="row list-unstyled fs-1 w-70">
+              <div class="col m-auto">
+                <a href="https://github.com/Kac-B"  target="_blank"><i class="bi bi-github"></i></a>
+              </div>
+              <div class="col m-auto">
+                <a href="https://www.linkedin.com/in/kacper-b-3b0917b9/"  target="_blank"><i class="bi bi-linkedin"></i></a>
+              </div>
+              <div class="col m-auto">
+                <a href="https://www.facebook.com/kacper.biernat"  target="_blank"><i class="bi bi-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+         
+        </section>
+        <!-- prawa strona-->   
+        <main class="col-12 col-md-8">
+            <!--Strona główna-->
+        <section class="ms-3">
+            <h2 class="font monospace mt-4">O mnie </h2>
+            <p class="mt-3 font-monospace">
+                Obecnie jestem zatrudniony na stanowisku specjalisty 
+                ds. rozliczeń umów i kontrolingu w spółce akcyjnej Vistal Gdynia SA. Posiadam bogate doświadczenie w zakresie kontroli i analizy projektów zdobyte na przestrzeni ostatnich lat. Wyróżnia mnie ponadprzeciętnie zaangażowanie w wykonywanie zadań oraz aspiracja do dalszego rozwoju zawodowego poprzez zdobywanie nowych umiejętności m.in. programowanie w języku PHP, JavaScript (min. React) oraz SQL.
+            </p>
+            <!-- przycisk z CV -->
+            <button class="btn btn-primary mt-5" data-bs-toggle="offcanvas" data-bs-target="#cv" aria-controls="offcanvasExample">CV</button>
+            <!-- Offcanvas CV -->
+            <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="cv">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <h4 class="display-4 mb-3">Kacper Biernat</h4>
+                    
+                    <h4 class="display-6 mb-2 font-monospace">Kariera</h4>
+                    <div class="accordion t" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-white" id="h-1">
+                                <button
+                                class="accordion-button bg-primary text-white"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne"
+                                aria-expanded="true"
+                                aria-controls="collapseOne"
+                              >
+                              Vistal Gdynia S.A 
+                              </button>
+                            </h2>
+                            <div
+                            id="collapseOne"
+                            class="accordion-collapse collapse show bg-dark text-light"
+                            aria-labelledby="h-1"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body bg-dark text-light">
+                              <strong>09.2019-obecnie  Specjalista ds. rozliczeń umów i kontrolingu</strong>
+                              <ul>
+                                  <li>sprawozdania finansowe na giełdę </li>
+                                  <li>tworzenie i usprawnienie raportów  </li>
+                                  <li>kontrola i analiza raportów na potrzeby zarządu </li>
+                                  <li>raportowanie projektowe </li>
+                                  <li>rozliczanie projektów i konsorcjów </li>
+                              </ul>
+                              <strong>07.2015–09.2019 Specjalista ds. rozliczeń umów</strong>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-white" id="h-2">
+                                <button
+                                class="accordion-button bg-primary text-white"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo"
+                                aria-expanded="true"
+                                aria-controls="collapseTwo"
+                              >
+                              Wydawnictwo Pedagogiczne OPERON  Sp. z o.o 
+                              </button>
+                            </h2>
+                            <div
+                            id="collapseTwo"
+                            class="accordion-collapse collapse show bg-dark text-light"
+                            aria-labelledby="h-2"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body bg-dark text-light">
+                              <strong>02.2015–06.2015  Analityk Finansowyu</strong>
+                              <ul>
+                                  <li>kontrola realizacji budżetów na poziomie MPK </li>
+                                  <li>analiza i kontrola finansowa projektów  </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header bg-white" id="h-3">
+                                <button
+                                class="accordion-button bg-primary text-white"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree"
+                                aria-expanded="true"
+                                aria-controls="collapseThree"
+                              >
+                              C. Hartwig Gdynia  S.A 
+                              </button>
+                            </h2>
+                            <div
+                            id="collapseThree"
+                            class="accordion-collapse collapse show bg-dark text-light"
+                            aria-labelledby="h-2"
+                            data-bs-parent="#accordionExample"
+                          >
+                            <div class="accordion-body bg-dark text-light">
+                              <strong>12.2013 – 02.2015 Specjalista ds. Controllingu i Budżetowania</strong>
+                              <ul>
+                                  <li>planowanie, sporządzanie i zatwierdzanie budżetu  </li>
+                                  <li>kontrola budżetów działów </li>
+                                  <li>przygotowanie analiz i raportów finansowych dla zarządu</li>
+                              </ul>
+                              <p><strong>11.2013 – 12.2013 Specjalista ds. Finansów</strong></p>
+                              <p><strong>10.2012 – 11.2013 Asystent w Dziale Finansowo-Księgowym</strong></p>
+                            </div>
+                          </div>
+                        </div>
+                        <h4 class="display-6 mb-2 font-monospace">Wykształcenie</h4>
+                        <div class="col m-auto row-cols-5 p-2">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#w-1" aria-expended="false" aria-controls="collapseExample">Wyższa Szkoła Bankowa</button>
+                        </div>
+                        <div class="collapse" id="w-1">
+                          <div class="card card-body bg-dark text-light">
+                            <strong>Programista aplikacji internetowych. Junior Web Developer-podyplomowe</strong>
+                            <p>10.2021-obecnie</p>
+                            <p><strong>Inżynieria danych. Big Data- podyplomowe</strong></p>
+                            <p>10.2018 – 06.2019</p>
+                          </div>
+                        </div>
+                        <div class="col m-auto row-cols-5 p-2">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#w-2" aria-expended="false" aria-controls="collapseExample">Uniwersytet Gdański
+                          </button>
+                        </div>
+                        <div class="collapse" id="w-2">
+                          <div class="card card-body bg-dark text-light">
+                            <strong>zarządzanie i marketing- magisterskie</strong>
+                            <p>10.2013 – 11.2015</p>
+                          </div>
+                        </div>
+                        <div class="col m-auto row-cols-5 p-2">
+                          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#w-3" aria-expended="false" aria-controls="collapseExample">Szkoła Wyższa Prawa i Dyplomacji w Gdyni</button>
+                        </div>
+                        <div class="collapse" id="w-3">
+                          <div class="card card-body bg-dark text-light">
+                            <strong>finanse i rachunkowość-licencjat</strong>
+                            <p>10.2009 – 07.2012</p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+        <section class="m-3">
+          <h2 class="font-monospace mt-4">Projekty</h2>
+            <div class="row row-cols-1 row-cols-4">
+              <!--pierwszy projekty-->
+              <div class="col w-50 mb-5 w-50">
+                <h5><i class="bi bi-cup"></i> Projekt strony kawiarni</h5>
+                <p>Projekt napisany za pomocą HTML-a i BOOTSTRA-a. Przedstawia projekt strony kawiarni</p>
+                <a class="btn btn-outline-primary w-100" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample" href="./pierwszy_projekt/index.html">Get more</a>
+              </div>
+              <!--drugi projekt-->
+              <div class="col w-50 mb-5 w-50">
+                <h5><i class="bi bi-moon"></i> Projekt komunikacja z API- Wiadomości o lotach w kosmos </h5>
+                <p>Projekt napisany za pomocą HTML-a, CSS-a i Vanilla.js. Ściąga i pokazuje na strone artykuły z APi Spaceflightnewsapi.net  </p>
+                <a class="btn btn-outline-primary w-100" role="button" data-bs-toggle="offcanvas" aria-controls="offcanvasExample" href="./drugi_projekt/index.html">Get more</a>
+              </div>
+            </div>
+            
+            
+        </section>
+        </main>
+    
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <script src="./src/js/main.js">
+
+      </script>
+</body>
+</html>

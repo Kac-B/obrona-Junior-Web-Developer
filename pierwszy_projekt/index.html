@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kawiarnia-projekt 1</title>
+        <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+</head>
+<body class="lista">
+  
+    <!--navbar-->
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top bg-light">
+        <div class="container mt-3">
+            <div class="navbar-header">
+              <button class="p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded"><i class="bi bi-cup-fill"></i></button>
+            </div>
+            <h2 class="intro-text text-center">
+              <strong style="font-family:'Dancing Script',cursive">Kawiarnia-projekt</strong>
+          </h2>
+        
+            <div class="navbar-expand ">
+                <ul class="nav navbar-nav navbar-right ">
+                    <button class="p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded">
+                        <a href="#" data-nav-section="witamy" class="text-reset text-decoration-none">Witamy</a>
+                    </button>
+                    <button class="active p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded">
+                        <a href="#menu" data-nav-section="menu" class="text-reset text-decoration-none">Menu</a>
+                    </button>
+                    <button class="active p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded">
+                        <a href="#lokalizacja" data-nav-section="lokalizacja" class="text-reset text-decoration-none">Lokalizacja</a>
+                    </button>
+                    <button class="active p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded">
+                        <a href="#lokalizacja" data-nav-section="kontakt" class="text-reset text-decoration-none">Kontakt</a>
+                    </button>
+                    <button class="active p-2 btn-group btn-group-toggle shadow-lg p-3 mb-5 bg-body rounded">
+                      <a href="../main.html" data-nav-section="main" class="text-reset text-decoration-none">Wróć</a>
+                  </button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--background-->
+  
+
+    <!--witamy-->     
+    <section class="lista">
+    <div class="container border border-dark shadow-lg p-3 mb-5 bg-body rounded">
+
+        <div class="row" id="witamy">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="src/img/coffe-1.jpg" class="d-block w-100"  alt="">
+                            <div class="centered">
+                              <h1 class="intro-text">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-1">ZAPRASZAMY</strong>
+                              </h1>
+                              <h2 class="intro-text ">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-3">od 12 do 22</strong>
+                              </h2>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/coffe-2.jpg" class="d-block w-100" alt="">
+                            <div class="centered">
+                              <h1 class="intro-text">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-1">ZAPRASZAMY</strong>
+                              </h1>
+                              <h2 class="intro-text ">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-3">od 12 do 22</strong>
+                              </h2>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="src/img/coffe-3.jpg" class="d-block w-100" alt="">
+                            <div class="centered">
+                              <h1 class="intro-text">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-1">ZAPRASZAMY</strong>
+                              </h1>
+                              <h2 class="intro-text ">
+                                <strong style="font-family:'Dancing Script',cursive" class="text-light display-3">od 12 do 22</strong>
+                              </h2>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section >
+    <div class="container border border-dark shadow-lg p-3 mb-5 bg-body rounded" id="menu" >  
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center w-100">
+                    <hr>
+                    <h2 class="intro-text ">
+                        <strong style="font-family:'Dancing Script',cursive">MENU</strong>
+                    </h2>
+                    <hr>
+                    <table class="table table-dark table-striped col-10">
+                        <thead>
+                          <tr>
+                            <th scope="col">Nr</th>
+                            <th scope="col">Nazwa</th>
+                            <th scope="col" style="text-align-last: auto;">Opis<span class="text-dark">.......................................</span>    </th>
+                            <th scope="col">Cena</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                               <td colspan="4">Kawy</td> 
+                            </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Cappuccino</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Cappuccino">włoski napój kawowy z dodatkiem spienionego mleka (rzadziej z bitą śmietaną) i szczyptą sypkiej czekolady lub kakao dla ozdoby.</a></td>
+                            <td>$$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Caffe coretto</td>
+                            <td><a class="text-reset text-decoration-none" href="https://en.wikipedia.org/wiki/Caff%C3%A8_corretto"> 
+                                włoski napój alkoholowy z kofeiną, składający się z espresso z niewielką ilością alkoholu (grappa/koniak/brandy/whisky)</a></td>
+                            <td>$$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Caffe latte / flat white</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Caff%C3%A8_latte"> włoski napój kawowy powstający w wyniku wlania spienionego ciepłego mleka do kawy espresso.</a></td>
+                            <td>$$</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Espresso</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Espresso">najbardziej klasyczny włoski napój kawowy.</a></td>
+                            <td>$$</td>
+                          </tr>
+                          <tr>
+                            <td colspan="4">Ciasta</td> 
+                         </tr>
+                         <tr>
+                            <th scope="row">1</th>
+                            <td>Buccellato</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Buccellato">kruche ciasto wypełniony farszem z suszonych fig, rodzynek, migdałów i skórki pomarańczy.</a></td>
+                            <td>$$</td>
+                          </tr>
+                         <tr>
+                            <th scope="row">2</th>
+                            <td>Chonek łejkech</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Chonek_%C5%82ejkech">iasto biszkoptowe, do którego pod sam koniec dodaje się roztopiony i ostudzony miód oraz składniki cukiernicze.</a></td>
+                            <td>$$</td>
+                          </tr>
+                         <tr>
+                            <th scope="row">3</th>
+                            <td>Dyniowa tarta</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Tarta_dyniowa">słodka tarta z nadzieniem z dyni.</a></td>
+                            <td>$$</td>
+                          </tr>
+                         <tr>
+                            <th scope="row">4</th>
+                            <td>Napoleonka</td>
+                            <td><a class="text-reset text-decoration-none" href="https://pl.wikipedia.org/wiki/Napoleonka"> ciastko złożone z dwóch płatów ciasta francuskiego, przełożone bitą śmietaną, kremem śmietankowym, budyniowym lub bezowym.</a></td>
+                            <td>$$</td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--lokalizacja-->
+    
+        <div class="container border border-dark shadow-lg p-3 mb-5 bg-body rounded ">
+
+            <div class="row ">
+                <div class="col-12">
+                    <div class="box " id="lokalizacja"></div>
+                    <hr>
+                    <h2 class="intro-text text-center " style="font-family:'Dancing Script',cursive">KONTAKT
+                    </h2>
+                    <hr>
+                </div>
+                
+                    
+                    <div class="col-md-8">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1092.8885742191846!2d18.54315253264049!3d54.52026352366613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fda73b359d8191%3A0xba1fa4512756d8a5!2zxZp3acSZdG9qYcWEc2thIDEwLCA4MS0zNjggR2R5bmlh!5e0!3m2!1spl!2spl!4v1654514088190!5m2!1spl!2spl" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                    </div>
+                    <div class="col-md-4  my-auto text-dark">
+                        <p class="">Telefon:
+                            <strong>000-000-000</strong>
+                        </p>
+                        <p>Email:
+                            <strong><a href="mailto:kawiarnia@kawiarnia.pl">kawiarnia@kawiarnia.pl</a></strong>
+                        </p>
+                        <p>Adres:
+                            <strong>ul. Świętojańska 10
+                                <br>81-368 Gdynia</strong>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </section>     
+       
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+</html>
